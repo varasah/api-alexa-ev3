@@ -28,13 +28,13 @@ const languageStrings = {
 const baseUrl = 'http://alexaev3api.azurewebsites.net/';
 
 const clawOperationValueMap = {
-    'schließen': 'close',
-    'öffnen': 'open'
+    'close': 'close',
+    'open': 'open'
 };
 
 const moveOperationValueMap = {
-    'vorwärts': 'forward',
-    'rückwärts': 'backward'
+    'forward': 'forward',
+    'backward': 'backward'
 };
 
 const handlers = {
