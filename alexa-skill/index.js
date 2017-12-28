@@ -6,21 +6,21 @@ const Alexa = require('alexa-sdk'),
 const APP_ID = process.env.APP_ID;
 
 const languageStrings = {
-    de: {
+    en: {
         translation: {
-            SKILL_NAME: 'Fern Steuerung',
-            WELCOME: '<say-as interpret-as="interjection">moin.</say-as> Benutze Sprache, um Deine Welt zu steuern.',
-            CLAW_NOT_POSSIBLE: 'Leider habe ich nicht verstanden, was ich mit der Zange machen soll.',
-            CLAW_OPEN: '<say-as interpret-as="interjection">sesam öffne dich</say-as>',
-            CLAW_VALUE_NOT_POSSIBLE: 'Die Zange kann nur geöffnet oder geschlossen werden.',
-            MOVE_NOT_POSSIBLE: 'Leider habe ich nicht verstanden, wie ich bewegen soll.',
-            MOVE_VALUE_NOT_POSSIBLE: 'Die Bewegung kann nur vorwärts oder rückwärts sein.',
-            HELP_MESSAGE: 'Du kannst Befehle wie "Zange Öffnen", "Bewege Vorwärts" oder "Ich habe Durst" sagen.',
-            HELP_REPROMPT: 'Geht nicht? Gibt\'s nicht!',
+            SKILL_NAME: 'Remote control',
+            WELCOME: '<say-as interpret-as="interjection">moin.</say-as> Use language to control your world.',
+            CLAW_NOT_POSSIBLE: 'Unfortunately, I did not understand what to do with the pliers.',
+            CLAW_OPEN: '<say-as interpret-as="interjection">open Sesame</say-as>',
+            CLAW_VALUE_NOT_POSSIBLE: 'The pliers can only be opened or closed.',
+            MOVE_NOT_POSSIBLE: 'Unfortunately I did not understand how to move.',
+            MOVE_VALUE_NOT_POSSIBLE: 'The movement can only be forward or backward.',
+            HELP_MESSAGE: 'You can say commands such as "Open Forceps," "Move Forward," or \"I\'m thirsty.\"',
+            HELP_REPROMPT: 'It does not work? Do not give it!',
             OK: '<say-as interpret-as="interjection">voila.</say-as>',
-            DO_IT_DUDE: '<prosody volume="x-loud"><say-as interpret-as="interjection">donnerwetter.</say-as></prosody> Ab geht die wilde Fahrt. <say-as interpret-as="interjection">juhu.</say-as>',
-            ERROR_INVOKING_API: '<say-as interpret-as="interjection">verdammt.</say-as> Leider konnte ich die API nicht erreichen.',
-            STOP_MESSAGE: '<say-as interpret-as="interjection">tschö.</say-as>'
+            DO_IT_DUDE: '<prosody volume="x-loud"><say-as interpret-as="interjection">donnerwetter.</say-as></prosody> Off the wild ride. <say-as interpret-as="interjection">juhu.</say-as>',
+            ERROR_INVOKING_API: '<say-as interpret-as="interjection">damned.</say-as> Unfortunately I could not reach the API.',
+            STOP_MESSAGE: '<say-as interpret-as="interjection">stop.</say-as>'
         }
     }
 };
