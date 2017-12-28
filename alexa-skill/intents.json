@@ -32,14 +32,14 @@
       "samples": [
         "Do it dude",
         "Hopp",
-        "Auf"
+        "On"
       ],
       "slots": []
     },
     {
       "name": "MoveIntent",
       "samples": [
-        "Fahre {MoveOperation}"
+        "Ride {MoveOperation}"
       ],
       "slots": [
         {
@@ -55,8 +55,8 @@
       "name": "StopIntent",
       "samples": [
         "Halt",
-        "Anhalten",
-        "Nicht mehr bewegen"
+        "Stop",
+        "Do not move anymore"
       ],
       "slots": []
     }
@@ -67,12 +67,12 @@
       "values": [
         {
           "name": {
-            "value": "Öffnen"
+            "value": "Open"
           }
         },
         {
           "name": {
-            "value": "Schließen"
+            "value": "Conclude"
           }
         }
       ]
@@ -82,12 +82,12 @@
       "values": [
         {
           "name": {
-            "value": "Vorwärts"
+            "value": "Forward"
           }
         },
         {
           "name": {
-            "value": "Rückwärts"
+            "value": "Backward"
           }
         }
       ]
@@ -101,7 +101,7 @@
       "variations": [
         {
           "type": "PlainText",
-          "value": "Was soll ich mit der Zange tun?"
+          "value": "What should I do with the pliers?"
         }
       ]
     },
@@ -112,7 +112,7 @@
       "variations": [
         {
           "type": "PlainText",
-          "value": "Soll der Roboter vorwärts oder rückwärts fahren?"
+          "value": "Should the robot drive forwards or backwards?"
         }
       ]
     }
