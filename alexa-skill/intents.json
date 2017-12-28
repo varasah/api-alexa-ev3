@@ -15,7 +15,7 @@
     {
       "name": "ClawIntent",
       "samples": [
-        "Zange {ClawOperation} "
+        "Claw {ClawOperation} "
       ],
       "slots": [
         {
@@ -39,7 +39,7 @@
     {
       "name": "MoveIntent",
       "samples": [
-        "Ride {MoveOperation}"
+        "Move {MoveOperation}"
       ],
       "slots": [
         {
